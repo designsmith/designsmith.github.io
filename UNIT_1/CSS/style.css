@@ -1,6 +1,18 @@
 body {
 	background-color: #ffff00;
 }
-h1,p{
+h1,p {
 	color: black;
+}
+
+.smith{
+	font-size: 60pt;
+	text-align: center;
+	font-family: helvetica neue;
+}
+
+.iain{
+	text-align: center;
+	font-family: helvetica neue;
+	
 }
