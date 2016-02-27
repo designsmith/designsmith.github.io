@@ -1,0 +1,29 @@
+body {
+    background-image: url('../images/stilllife.jpg');
+    background-size: cover;
+}
+
+h1, p {
+    color: white;
+}
+
+.smith {
+    font-size: 60pt;
+    text-align: center;
+    font-family: helvetica;
+    color: #FFE1B6;
+
+}
+
+.iain {
+	font-size: 10pt;
+    text-align: center;
+    font-family: helvetica;
+    font-style: italic;
+}
+.sasha{
+	font-size: 10pt;
+    text-align: center;
+    font-family: helvetica;
+
+}
