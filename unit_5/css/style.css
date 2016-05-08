@@ -12,7 +12,7 @@ header {
 	background-color: #FFED74;
 	border: 1px black solid;
 	padding: 20px;
-	height: 800px;
+	height: 600px;
 }
 article {
 	background-color: #E89C6C;
@@ -92,6 +92,18 @@ section {
 	font-size: 12pt;
 	text-align: left;
 	font-family: 'Open Sans Condensed', sans-serif;
-	float: right;
-	width: 62%;
+	float: left;
+	width: 25%;
+	margin-left: 10px;
+}
+#mid{
+	background-color: #E55B88;
+	border: 1px black solid
+	padding 20px;
+	font-size: 12pt;
+	text-align: left;
+	font-family: 'Open Sans Condensed', sans-serif;
+	float: left;
+	width: 25%;
+
 }

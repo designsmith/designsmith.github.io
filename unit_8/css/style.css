@@ -1,0 +1,61 @@
+body{ min-width: 400px;
+max-width: 1024px;
+margin: 0px auto;
+ }
+
+nav, footer, main, aside, section, li{
+	border: solid 1px #000;
+	height: 80px;
+}
+
+nav, footer{
+	width: 100%;
+}
+
+main{
+	width: 79%;
+	height: auto;
+	display: inline-block;
+}
+
+aside{
+	width:20%;
+	display: inline-block;
+	vertical-align: top;
+}
+main ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+main ul li{
+	width: 49.38%;
+	display:inline-block;
+	background-color: coral;
+}
+
+
+
+@media screen and (min-width:500px) and (max-width:800px){
+	body{
+		background-color: aqua;
+		}
+		main{
+			width: 70%;
+		}
+		aside{
+			width: 25%;
+		}
+	}
+
+@media screen and (min-width:0px) and (max-width: 570px){
+	body{
+		background-color: blue;
+		}
+		
+		main, aside, main ul li{
+			display:block;
+			width: 98%;
+		}
+	}
